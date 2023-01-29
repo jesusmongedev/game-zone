@@ -1,10 +1,10 @@
 import { Shell } from 'ui'
-import { CardPicker } from './CardPicker'
+import { TopNumber } from './TopNumber'
 
 function App() {
   return (
-    <Shell title="Card Picker">
-      <CardPicker />
+    <Shell title="Top Number">
+      <TopNumber />
     </Shell>
   )
 }

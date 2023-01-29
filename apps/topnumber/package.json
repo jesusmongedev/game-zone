@@ -1,5 +1,5 @@
 {
-  "name": "cardpicker",
+  "name": "topnumber",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,6 @@
     "@types/node": "^16.18.11",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
-    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -17,7 +16,7 @@
     "ui": "workspace:*"
   },
   "scripts": {
-    "dev": "craco start",
+    "dev": "set PORT=3002 && craco start",
     "build": "craco build"
   },
   "eslintConfig": {
@@ -38,7 +37,6 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "^7.0.0",
-    "@types/lodash": "^4.14.191"
+    "@craco/craco": "^7.0.0"
   }
 }

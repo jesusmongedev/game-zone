@@ -1,3 +1,1 @@
 import('./bootloader')
-
-export default {}
