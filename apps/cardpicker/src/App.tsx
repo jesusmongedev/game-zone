@@ -1,5 +1,5 @@
 import { Shell } from 'ui'
-import { CardPicker } from './CardPicker'
+import { CardPicker } from 'games'
 
 function App() {
   return (

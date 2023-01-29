@@ -56,7 +56,7 @@ export const Shell = ({ title, children }: ShellProps) => {
                   color: 'white',
                 }}
               >
-                {user} | {score}
+                Hello {user} | {score}
               </Title>
               <Button variant="light" onClick={() => setUser(null)}>
                 Logout
@@ -64,7 +64,7 @@ export const Shell = ({ title, children }: ShellProps) => {
             </Box>
           )}
           {!user && (
-            <Button variant="light" onClick={() => setUser('Jack')}>
+            <Button variant="light" onClick={() => setUser('Jesus')}>
               Login
             </Button>
           )}

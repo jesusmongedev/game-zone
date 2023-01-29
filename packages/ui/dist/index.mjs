@@ -50,6 +50,7 @@ var Shell = ({ title, children }) => {
                     color: "white"
                   },
                   children: [
+                    "Hello ",
                     user,
                     " | ",
                     score
@@ -58,7 +59,7 @@ var Shell = ({ title, children }) => {
               ),
               /* @__PURE__ */ jsx(Button, { variant: "light", onClick: () => setUser(null), children: "Logout" })
             ] }),
-            !user && /* @__PURE__ */ jsx(Button, { variant: "light", onClick: () => setUser("Jack"), children: "Login" })
+            !user && /* @__PURE__ */ jsx(Button, { variant: "light", onClick: () => setUser("Jesus"), children: "Login" })
           ]
         }
       ),

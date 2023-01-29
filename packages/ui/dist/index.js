@@ -70,6 +70,7 @@ var Shell = ({ title, children }) => {
                     color: "white"
                   },
                   children: [
+                    "Hello ",
                     user,
                     " | ",
                     score
@@ -78,7 +79,7 @@ var Shell = ({ title, children }) => {
               ),
               /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_core.Button, { variant: "light", onClick: () => setUser(null), children: "Logout" })
             ] }),
-            !user && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_core.Button, { variant: "light", onClick: () => setUser("Jack"), children: "Login" })
+            !user && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_core.Button, { variant: "light", onClick: () => setUser("Jesus"), children: "Login" })
           ]
         }
       ),

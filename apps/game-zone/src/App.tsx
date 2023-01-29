@@ -1,6 +1,5 @@
 import { Shell } from 'ui'
-import { CardPicker } from 'cardpicker/CardPicker'
-import { TopNumber } from 'topnumber/TopNumber'
+import { CardPicker, TopNumber } from 'games'
 
 function App() {
   return (
