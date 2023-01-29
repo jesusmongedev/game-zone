@@ -4,8 +4,11 @@
   "main": "./index.tsx",
   "types": "./index.tsx",
   "license": "MIT",
+  "module": "./dist/index.mjs",
   "scripts": {
-    "lint": "eslint *.ts*"
+    "lint": "eslint *.ts*",
+    "build": "tsup index.tsx --format esm,cjs --dts --external react",
+    "dev": "tsup index.tsx --format esm,cjs --watch --dts --external react"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
@@ -15,5 +18,12 @@
     "react": "^18.2.0",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@mantine/core": "^5.10.2",
+    "@mantine/hooks": "^5.10.2",
+    "tsup": "^6.5.0",
+    "zustand": "^4.3.2"
   }
 }
